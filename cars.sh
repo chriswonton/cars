@@ -7,11 +7,11 @@ echo "type 2 to display the list of cars"
 echo "type 3 to quit and exit the program"
 read input
 
-while [ $input -lt 3 ]
+while [ "$input" -lt 3 ]
 do
 	if [ "$input" -eq 2 ]
 	then
-		echo "$(<My_old_cars)"
+		echo "$(<$My_old_cars)"
 	elif [ "$input" -eq 1 ]
 	then
 		year=""
