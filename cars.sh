@@ -11,7 +11,8 @@ while [ "$input" -lt 3 ]
 do
 	if [ "$input" -eq 2 ]
 	then
-		echo "$(<$My_old_cars)"
+		cat My_old_cars
+
 	elif [ "$input" -eq 1 ]
 	then
 		year=""
