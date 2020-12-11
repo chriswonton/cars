@@ -25,7 +25,7 @@ do
 			read -r model
 		
 			newCar="$year:$make:$model"
-			echo $newCar >> My_old_cars
+			echo "$newCar" >> My_old_cars
 			;;
 		"2")
 			cat My_old_cars;;
