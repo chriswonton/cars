@@ -5,10 +5,10 @@
 echo "type 1 to enter a new car"
 echo "type 2 to display the list of cars"
 echo "type 3 to quit and exit the program"
-input = "0"
+input="0"
 read -r input
 
-while [ "$input" -le 3 ]
+while [ "$input" -ne "3" ]
 read -r input
 do
 	case "$input" in
