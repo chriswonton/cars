@@ -14,15 +14,15 @@ do
 		"1")
 			year=""
 			echo "year?"
-			read year
+			read -r year
 		
 			make=""
 			echo "make?"
-			read make
+			read -r make
 		
 			model=""
 			echo "model?"
-			read model
+			read -r model
 		
 			newCar="$year:$make:$model"
 			echo $newCar >> My_old_cars
