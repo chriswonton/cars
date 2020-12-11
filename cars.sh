@@ -25,8 +25,7 @@ do
 			echo "model?"
 			read $model
 		
-			colon=":"
-			newCar="$year$colon$make$colon$model"
+			newCar="$year:$make:$model"
 			echo $newCar >> My_old_cars
 			;;
 		"2")
