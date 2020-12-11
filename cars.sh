@@ -9,10 +9,10 @@ read input
 
 while [ $input -lt 3 ]
 do
-	if [ $input -eq 2 ]
+	if [ "$input" -eq 2 ]
 	then
-		cat My_old_cars
-	elif [ $input -eq 1 ]
+		echo "$(<My_old_cars)"
+	elif [ "$input" -eq 1 ]
 	then
 		year=""
 		echo "year?"
